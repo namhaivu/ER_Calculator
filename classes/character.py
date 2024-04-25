@@ -1,0 +1,19 @@
+# Character Class
+class Character:
+    health = 0
+    current_health = 0
+    defense = 0
+    skill_amp = 0
+    base_attack_power = 0
+    extra_attack_power = 0
+    attack_power = 0
+    amp_percent = 1
+    basic_attack_amp = 1
+    armor_penetration = 0
+    pen_percent = 0
+    damage_reduction = 0
+    damage_increase = 0
+    crit_mult = 1.75
+    crit_chance = 0
+    attack_speed = 0
+    cooldown_reduction = 0
