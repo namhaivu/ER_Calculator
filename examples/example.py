@@ -51,8 +51,10 @@ s1.enemy_health_scaling = 0
 s1.current_health_scaling = 0
 s1.isCrit = True
 
-raw = calc_raw_skill_damage(c1, s1, c2)
-raw1 = calc_auto_attack_dps(c1)
-raw2 = calc_raw_auto_attack_average(c1)
-print(raw)
-print(calc_damage(c1, c2, raw))
+
+def example1():
+    raw = calc_raw_skill_damage(c1, s1, c2)
+    raw1 = calc_auto_attack_dps(c1)
+    raw2 = calc_raw_auto_attack_average(c1)
+    print(raw)
+    print(calc_damage(c1, c2, raw))
